@@ -5,10 +5,18 @@
   border-top: 3px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
+
+
 .footer a {
-  
+  position: fixed;
+  bottom: 1;
+  width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
