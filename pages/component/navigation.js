@@ -1,9 +1,7 @@
 import Link from "next/link";
-import styles from "./nav.module.css";
-import About from "../../about";
 function Navigation() {
   return (
-    <div className={styles.link}>
+    <div className="link">
       <nav>
         <Link href="/">
           <a> &nbsp; Ana sayfa &nbsp;</a>

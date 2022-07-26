@@ -1,6 +1,5 @@
 import Navigation from "./navigation";
-import Footer from "../footerComponent";
-import IconLink from "../iconLink";
+import Footer from "./footerComponent";
 
 function Layout({ children }) {
   return (

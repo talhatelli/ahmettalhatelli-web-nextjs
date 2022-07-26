@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import "remixicon/fonts/remixicon.css";
-import Layout from "./component/header/layout";
+import Layout from "./component/layout";
 import IconLink from "./component/iconLink";
 
 export default function Home() {

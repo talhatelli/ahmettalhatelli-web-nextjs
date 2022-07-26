@@ -1,12 +1,11 @@
 import "remixicon/fonts/remixicon.css";
-import styles from "./footerComponent.module.css";
 
 export default function Footer() {
   return (
     <div>
-      <footer className={styles.footer}>
+      <footer className="footer">
         <a>
-          Devoloper by Ahmet Talha <span className={styles.logo}></span>
+          Devoloper by Ahmet Talha <span className="logo"></span>
         </a>
       </footer>
     </div>

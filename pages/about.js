@@ -1,10 +1,10 @@
-import Layout from "./component/header/layout";
-import styles from "./about.module.css";
-
+import Layout from "./component/layout";
+import Photo from "./imgComponent/photo";
 function About() {
   return (
     <Layout>
-      <div className={styles.box}>
+      <Photo />
+      <div className="box">
         <h1>Öz Biyografi</h1>
         <p>
           Merhabalar <br />
