@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 function Navigation() {
   return (
     <div className="link">
@@ -9,9 +9,12 @@ function Navigation() {
         <Link href="/about">
           <a> &nbsp; Hakkımda &nbsp;</a>
         </Link>
+        <Link href="/music">
+          <a> &nbsp; Müzikler &nbsp;</a>
+        </Link>
         <br />
         <br />
-      </nav>{" "}
+      </nav>{' '}
     </div>
   );
 }

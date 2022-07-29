@@ -1,9 +1,9 @@
-import Navigation from "./navigation";
-import Footer from "./footerComponent";
+import Navigation from './navigation';
+import Footer from './footerComponent';
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className="layout-wrapper">
       <Navigation />
       <main>{children}</main>
       <Footer />
