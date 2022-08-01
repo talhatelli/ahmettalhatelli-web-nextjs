@@ -1,5 +1,5 @@
 import Layout from './component/layout';
-import Photo from './imgComponent/photo';
+import Photo from './img/photo';
 function About() {
   return (
     <Layout>
@@ -7,7 +7,7 @@ function About() {
       <div className="box">
         <div className="box-text">
           {' '}
-          <h1>Öz Biyografi</h1>
+          <h1>Öz Biyografim</h1>
           <p>
             Merhabalar <br />
             Adım Ahmet Talha soyadım Telli 21 yaşındayım Üniversite 3. sınıfım. 2001 de Malatya Battalgazi Alişar körmolla köyünde doğdum. İlk okul hayatımı körmolla ilk okulunda bitirdim .Orta okul

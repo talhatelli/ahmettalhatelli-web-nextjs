@@ -1,4 +1,4 @@
-import "remixicon/fonts/remixicon.css";
+import 'remixicon/fonts/remixicon.css';
 
 export default function Footer() {
   return (
